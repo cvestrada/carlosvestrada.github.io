@@ -1,5 +1,7 @@
-body {
-	body {
+
+/* home */ 
+
+body { 
         background: #eee;
         margin: 0 auto;
         width: 60%;
@@ -7,7 +9,6 @@ body {
         line-height: 24px;
 }
 
-}
 h1 {
         text-transform: uppercase;
         font-size: 48px;
@@ -16,13 +17,15 @@ h1, h2, h3, h4, h5 {
         color: #30A9FF;
 }
 
+/* links */
+
 a, a:active, a:visited {
         color: #51D1FF;
         text-decoration: none;
 }
 
 a:focus, a:hover {
-        color: #30A9FF;
+        color: #fff;
         text-decoration: none;
 }
 }
@@ -49,7 +52,84 @@ p {color:#FFFDC0;
 }
 
 
+/* Nav */
+.nav {
+        margin-bottom: 40px;
+        margin-top: 20px;
+}
+
+.nav a {
+        background: #57b5d6;
+        padding: 10px;
+        color: #fff;
+        display: inline-block;
+        border-radius: 5px;
+        margin-right: 10px;
+}
+
+.nav a:hover {
+        background: #9eca69;
+}
 
 
+/* Blog Post on Homepage */
 
+.blog {
+        margin-bottom: 40px;
+        background: #ddd;
+        padding: 10px;
+}
+
+.post {
+        box-shadow: 1px 1px 8px #999;
+        background: #fff;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+}
+
+.post h2 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+}
+
+/* about */
+
+.image img {
+        border-radius: 3px;
+        box-shadow: 0px 0px 40px 2px #30A9FF;
+        border: 2.5px solid white;
+        text-align: center;
+}
+
+.image {
+        text-align: center;
+}
+
+/* contact  */
+
+strong {
+        text-transform: uppercase;
+}
+
+
+/* blog */
+
+h2 {
+        font-size: 32px;
+        margin-bottom: 0;
+}
+
+h4 {
+        color: #666;
+        font-weight: normal;
+        font-size: 12px;
+        text-transform: uppercase;
+}
+
+.single-post {
+        box-shadow: 1px 1px 8px #999;
+        background: #fff;
+        padding: 10px 40px 20px;
+        margin: 40px 0;
+}
 
