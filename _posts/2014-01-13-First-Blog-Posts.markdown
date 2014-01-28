@@ -1,13 +1,4 @@
----
-layout: default
-title: blog
----
-<h1>Welcome to my blog</h1>
 
-<div class="navigation">
-	<a href="about.html">About Me</a>   
-	<a href="contact.html">Contact</a>
-</div>
 <div class="single-post">
 <h2>First Blog Post</h2>
 <h4>Monday, January 13, 2014</h4>
