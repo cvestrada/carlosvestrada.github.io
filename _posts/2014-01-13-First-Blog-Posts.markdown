@@ -1,6 +1,6 @@
 
 <div class="single-post">
-<h2>First Blog Post</h2>
+<h1>First Blog Post</h1>
 <h4>Monday, January 13, 2014</h4>
 
 <p>
